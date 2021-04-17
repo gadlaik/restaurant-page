@@ -1,0 +1,61 @@
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  margin: 0px;
+  height: 1080px;
+  width: 1920px;
+  max-height: 100%;
+  max-width: 100%;
+  background-image: url("/img/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 1px 1px 3px goldenrod;
+  overflow-y: hidden;
+}
+.title {
+  color: whitesmoke;
+  font-family: "Kalam", cursive;
+  font-size: 55px;
+  transform: translateY(15px);
+}
+.main {
+  margin: 300px auto auto auto;
+  width: 720px;
+  height: auto;
+  color: whitesmoke;
+  text-align: center;
+}
+p,
+h2 {
+  transform: scale(1.5);
+}
+ul {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  gap: 33px;
+  list-style-type: none;
+  color: whitesmoke;
+  justify-content: center;
+  padding: 0px;
+}
+li {
+  font-family: monospace;
+  font-size: 20px;
+  cursor: pointer;
+}
+li:hover {
+  border-bottom: 2px solid whitesmoke;
+  transition-duration: 100ms;
+}
+.foodMenu {
+  top: 300px;
+  flex-direction: column;
+  width: fit-content;
+  display: none;
+}
